@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import os
 
-os.chdir("C://Users/dipra/source/repos/FarmAI App/FarmerAI")
+os.chdir("C://Users/dipra/source/repos/FarmAI App/FarmerAI") #This is my local file dir pls do not mind! Shift with yours!
 data = pd.read_csv('TEMP_ANNUAL_SEASONAL_MEAN.csv')
 
 #Train Variables
