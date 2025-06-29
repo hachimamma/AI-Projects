@@ -7,8 +7,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 import os, subprocess
 
-os.chdir("C://Users/dipra/source/repos/FarmAI App/FarmerAI")
-
 data = pd.read_csv('TEMP_ANNUAL_SEASONAL_MEAN.csv')
 
 X = data[['YEAR', 'ANNUAL', 'JAN-FEB', 'MAR-MAY', 'JUN-SEP', 'OCT-DEC']]
